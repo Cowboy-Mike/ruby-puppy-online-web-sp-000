@@ -13,7 +13,7 @@ def self.print_all
   end 
 end
   
-def initialize 
+def initialize(name)
   @@all << self 
 end 
 
