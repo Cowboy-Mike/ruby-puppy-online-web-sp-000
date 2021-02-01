@@ -9,7 +9,7 @@ def self.all
 end
 
 def self.print_all
- @@all
+ @@all.each { |n| puts n }
  end
  
 end
