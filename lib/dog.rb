@@ -8,11 +8,12 @@ def self.all
 end
 
 def self.print_all
+ @@all.each {|i| puts i.name}
  
 end
   
 def initialize(name)
-  save
+  self.save
 end 
 
 def save
