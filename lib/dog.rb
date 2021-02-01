@@ -10,8 +10,6 @@ end
 
 def self.print_all
  @@all.each { |n| puts n }
- end
- 
 end
   
 def initialize(name)
