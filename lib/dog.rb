@@ -14,7 +14,10 @@ def self.print_all
 end
   
 def initialize(name)
-  @@all << self 
+  save
 end 
+
+def save
+  @@all << self
 
 end
