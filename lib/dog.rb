@@ -11,6 +11,7 @@ def self.print_all
   @@all.each do |i|
     puts i 
   end 
+end
   
 def initialize 
   @@all << self 
