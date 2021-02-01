@@ -14,4 +14,6 @@ def self.print_all
   
 def initialize 
   @@all << self 
+end 
+
 end
