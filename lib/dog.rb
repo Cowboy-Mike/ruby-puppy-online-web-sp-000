@@ -8,7 +8,10 @@ def self.all
 end
 
 def self.print_all
-  @@all.each do 
+  @@all.each do |i|
+    puts i 
+  end 
+  
 def initialize 
   @@all << self 
 end
