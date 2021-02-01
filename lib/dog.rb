@@ -8,7 +8,7 @@ def self.all
 end
 
 def self.print_all
- @@all.each for 
+ @@all.each { |i| puts i}
  
 end
   
